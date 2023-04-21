@@ -6,3 +6,70 @@ body{
 background-color: #333;
 color: white;
 }
+
+.taskBg{
+    width: 90%;
+    background-color: rgb(122, 120, 122);
+    margin-bottom: 20px;
+    padding: 10px 140px 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.taskNumber{
+  color:rgb(209, 209, 209);
+  border: 3px solid rgb(184, 31, 102);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.taskBg .done .taskText{
+  text-decoration: line-through;
+  opacity: 0.3;
+  flex: 1;
+
+}
+
+.taskBg .taskText{
+  flex: 1;
+}
+
+.mr{
+  margin-right: 25px;
+}
+.taskBg div{
+  display: flex;
+  align-items: center;
+}
+
+.iconWrap{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  display: inline-block;
+ 
+}
+
+.taskBg .iconWrap span{
+  display: inline-block;
+  margin-left: 4px;
+  color: rgb(184, 31, 102);
+  cursor: pointer;
+}
+
+.taskBg .iconWrap span:hover{
+  color: rgb(77, 8, 40);
+}
